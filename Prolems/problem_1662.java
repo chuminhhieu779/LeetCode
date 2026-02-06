@@ -3,7 +3,7 @@ import java.util.*;
 
 public class problem_1662 {
 
-	public static boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+	public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
 		String tmp1 = "";
 		String tmp2  = "";
 		for (String s : word1) {

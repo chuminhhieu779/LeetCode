@@ -3,7 +3,6 @@ import java.util.*;
 
 public class problem_1313 {
 
-
 	public static int[] decompressRLElist(int[] nums) {
 
 		List<Integer> list = new ArrayList<>();
@@ -13,7 +12,7 @@ public class problem_1313 {
 			int[] pair = new int[fre];
 			int j = 0 ;
 			while ( j < pair.length ) {
-				list.add(val);
+				list.add(val); 
 				++j ;
 			}
 		}
